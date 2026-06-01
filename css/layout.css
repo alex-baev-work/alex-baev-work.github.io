@@ -1,0 +1,70 @@
+:root {
+    --txt-color-01: #555;
+    --txt-color-02: #ccc;
+    --bg-color-01: #ddd;
+    --bg-color-02: #555;
+    --lnk-color-01: #900;
+    --lnk-color-02: #c00;
+    --btn-color-01: #900;
+    --bth-color-02: #c00;
+    --mob-padding: 20px;
+    --ipad-padding: 40px;
+    --max-width: 1280px;
+    --ver-desk-pad: 50px;
+    --ver-mob-pad: 25px;
+
+}
+
+html,
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--txt-color-01);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: .25em;
+    margin-top: .25em;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+h1 {
+    font-size: 2rem
+}
+
+h2 {
+    font-size: 1.5rem
+}
+
+h3 {
+    font-size: 1.35rem;
+}
+
+header,
+section,
+footer {
+    padding-top: var(--ver-desk-pad);
+    padding-bottom: var(--ver-mob-pad);
+}
+
+.inside {
+    max-width: var(--max-width);
+    margin-left: auto;
+    margin-right: auto;
+}
